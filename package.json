@@ -1,0 +1,22 @@
+{
+  "name": "web.chat",
+  "description": "ln",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "forever": "^3.0.0",
+    "nodemon": "^1.17.5",
+    "socket.io": "0.9.x"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "version": "1.0.0",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

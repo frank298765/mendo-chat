@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>mendo.chat</title>
+        <link rel="stylesheet" href="css/main.css">
+       
+    </head>
+    <body>
+        <section class="wrapper">
+            <header>               
+		<section class="banner">              
+  		 <span class="status" id="status"></span>
+                </section>
+            </header>
+            <input class="colorStyle" id="colorStyle" type="color" placeHolder='#656160' value="#656160" title="font color" />	         
+		 <main>
+                <section class="historyMsg"id="historyMsg">
+                </section>
+                <section class="controls" >
+                    <section class="items">                        
+                        <input class="emojiBtn"  id="emoji" type="button" value="emoji" title="emoji" />                  
+                        <label for="sendImage" class="imageLable">
+                            <input class="imgBtn" type="button" value="image"  />
+                            <input class="sendImage" id="sendImage" type="file" value="image"/>
+                        </label>
+                        <input class="clearBtn" id="clearBtn" type="button" value="clear" title="limpiar" />
+			</div>
+			
+                    </section>
+                    
+                    <section class="sending">
+                        <textarea class="messageInput" maxlength="70" id="messageInput" placeHolder=" decir algo..   max 70 caracteres"></textarea>
+                        <input class="sendBtn" id="sendBtn" type="button" value=">">
+                    </section>
+                    
+                    <section class="emojiWrapper" id="emojiWrapper">
+                    </section>
+                </section>
+                        
+                <section id="loginWrapper" class="loginWrapper">
+                    <p class="info" id="info">Nombre de Usuario</p>
+                    <section id="nickWrapper" class="nickWrapper">
+                        <input type="text" maxlength="15" placeHolder="Id de usuario" id="nicknameInput" class="nicknameInput" />
+                        <input type="button" value=">" id="loginBtn" class="loginBtn" />
+                    </section>
+		    </section>
+	            </main>
+
+        </section>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/chat.js"></script>
+    </body>
+</html>
