@@ -43,9 +43,9 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(54, 42, 243, 0.48);
+    background-color: #f6f6f6;
     text-align: center;
-    color: #fff;
+    color: #3e3e3e;
     display: block;
     padding-top: 200px;
 }
