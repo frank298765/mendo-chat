@@ -127,7 +127,7 @@ body {
     position: relative;
 }
 .historyMsg {
-    height: 491px;
+    height: 390px;
     width: 100%;
     background-image: url(./back.png);
     background-size: cover;
